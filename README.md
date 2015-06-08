@@ -20,14 +20,14 @@ To install the plugin:
 
 Then, in your ```Vagrantfile```:
 
-    config.vm.network :private_network, ip: "10.10.10.10"
+    config.vm.network :private_network, ip: "<your guest ip>"
 
-    config.vm.synced_folder "my/src", "T:", type: "better_smb",
-                            better_smb_machine_ip: "10.10.10.10",
-                            better_smb_share_name: "src",
-                            better_smb_host_ip: "your host IP",
-                            better_smb_share_user: "your username",
-                            better_smb_share_password: "your password"
+    config.vm.synced_folder "testdata", "<your drive letter>:", type: "better_smb",
+                            better_smb_machine_ip: "<your guest ip>",
+                            better_smb_share_name: "<your share name>",
+                            better_smb_host_ip: "<your host ip>",
+                            better_smb_share_user: "<your username>",
+                            better_smb_share_password: "<your password>"
 
 ## Debugging
 
