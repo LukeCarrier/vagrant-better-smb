@@ -1,0 +1,16 @@
+---
+en:
+  vagrant_plugins:
+    better_smb:
+      errors:
+        smb_client_not_installed_on_guest: |-
+          No SMB client is installed on the guest
+        smb_server_not_installed_on_host: |-
+          No SMB server is installed on the host
+      messages:
+        exporting: |-
+          Exporting folders as SMB shares
+        mounting: |-
+          Mounting SMB shares on guest
+        pruning: |-
+          Pruning invalid SMB shares from host

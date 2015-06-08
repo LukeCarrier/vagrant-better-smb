@@ -1,0 +1,8 @@
+# VAGRANT-BEGIN: <%= user %> <%= uuid %>
+<% folders.each do |name, opts| %>
+[<%= opts[:better_smb_share_name] %>]
+    path = <%= opts[:hostpath] %>
+    writeable = yes
+    hosts allow = <%= opts[:better_smb_machine_ip] %>
+<% end %>
+# VAGRANT-END: <%= user %> <%= uuid %>

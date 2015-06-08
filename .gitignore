@@ -1,0 +1,6 @@
+# Bundler
+/Gemfile.local
+/Gemfile.lock
+
+# Vagrant
+/.vagrant/
