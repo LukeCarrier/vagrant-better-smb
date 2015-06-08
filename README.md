@@ -51,7 +51,9 @@ Then, in your ```Vagrantfile```:
 
 It's easy:
 
-    $ gem build vagrant-better-smb.gemspec
+    $ bundle install
+    $ rake build
+    $ ls pkg/
 
 ### To do
 
