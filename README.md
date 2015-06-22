@@ -36,7 +36,7 @@ Then, in your ```Vagrantfile```:
 2. Is your password up to date? Update it with ```smbpasswd```.
 3. Can you see your share in ```smbclient -L 127.0.0.1 -U <your username>```?
 4. Have you configured SELinux correctly? Allow Samba to access home directories
-   with ```setsebool -P samba_enable_home_dirs 1```
+   with ```setsebool -P samba_enable_home_dirs on```
 
 ## Hacking
 
