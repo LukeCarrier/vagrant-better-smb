@@ -53,7 +53,7 @@ module VagrantPlugins
                   output = true
                 end
 
-                nfs_cleanup(id)
+                cleanup_exports(id)
               end
             end
           end
