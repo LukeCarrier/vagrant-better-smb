@@ -4,5 +4,7 @@
     path = <%= opts[:hostpath] %>
     writeable = yes
     hosts allow = <%= opts[:better_smb_machine_ip] %>
+    guest ok = yes
+    guest user = <%= opts[:better_smb_share_user] %>
 <% end %>
 # VAGRANT-END: <%= user %> <%= uuid %>
