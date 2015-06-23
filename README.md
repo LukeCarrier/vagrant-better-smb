@@ -10,7 +10,7 @@ providing an alternative synced folder implementation.
 ## Work in progress
 
 Don't use me for anything important just yet -- I'm still undergoing heavy
-development. I'll be on RubyGems soon.
+development. I'm on RubyGems if you're curious about where I'm headed, though.
 
 ## Using
 
